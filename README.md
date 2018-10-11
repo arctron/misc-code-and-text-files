@@ -1,6 +1,6 @@
 # Best TV Shows 
 * That 70s Show
-* Ozarks
+* Ozark
 * Cobra Kai
 * Daredevil
 * Luke Cage
@@ -14,3 +14,9 @@
 * Counterpart
 * The Deuce
 * The Originals
+* Dark
+* The Good Doctor
+* Preacher
+* Condor
+* Glow
+* The Expanse
