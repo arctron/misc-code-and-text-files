@@ -7,3 +7,6 @@
 * Iron Fist
 * Jessica Jones
 * Punisher
+* Supernatural
+* Riverdale
+* Jack Ryan
