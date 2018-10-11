@@ -10,3 +10,7 @@
 * Supernatural
 * Riverdale
 * Jack Ryan
+* Silicon Valley
+* Counterpart
+* The Deuce
+* The Originals
