@@ -20,4 +20,7 @@
 * Condor
 * Glow
 * The Expanse
+* Safe
+* Dexter
+* The Purge
 * Seinfeld
