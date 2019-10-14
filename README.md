@@ -26,4 +26,3 @@
 * Seinfeld
 * Carnival Row
 * Our Planet
-* Planet Earth II
