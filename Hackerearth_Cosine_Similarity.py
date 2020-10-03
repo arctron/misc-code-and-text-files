@@ -1,11 +1,6 @@
 
-# coding: utf-8
+
 Problem : https://www.hackerearth.com/challenge/hiring/affine-analytics-ml-challenge/machine-learning/targeting-strategy-to-market-the-right-properties/
-
-
-# coding: utf-8
-
-# In[154]:
 
 
 import pandas as pd
@@ -128,7 +123,7 @@ print prop_euclidean_distances_matrix.shape
 # In[81]:
 
 
-account_dict = dict()
+account_dict = dict(0)
 unique_account_ids = account_property_df.id_accs.unique()
 for account in unique_account_ids:
     tdf = account_property_df[account_property_df.id_accs.eq(account)]
