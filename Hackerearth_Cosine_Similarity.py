@@ -79,30 +79,30 @@ property_ar
 # In[183]:
 
 
-property_type_dict = dict()
-region_dict=dict()
-pt_cnt=0
-rg_cnt=0
-for idx, row in property_df.iterrows():
-    prop_type = row['property_type_1']
-    region = row['region__c']
-    pt_value = property_type_dict.get(prop_type, -1)
-    rg_value = region_dict.get(region, -1)
+# property_type_dict = dict()
+# region_dict=dict()
+# pt_cnt=0
+# rg_cnt=0
+# for idx, row in property_df.iterrows():
+#     prop_type = row['property_type_1']
+#     region = row['region__c']
+#     pt_value = property_type_dict.get(prop_type, -1)
+#     rg_value = region_dict.get(region, -1)
     
-    if pt_value!=-1:
-        row['property_type_1']=pt_value
-        property_df.iloc[idx, property_df.columns.get_loc('property_type_1')] = pt_value
-    else:
-        row['property_type_1']=pt_cnt
-        property_df.iloc[idx, property_df.columns.get_loc('property_type_1')] = pt_cnt
-        pt_cnt+=1
-    if rg_value!=-1:
-        row['region__c']=rg_value
-        property_df.iloc[idx, property_df.columns.get_loc('region__c')] = rg_value
-    else:
-        row['region__c']=rg_cnt
-        property_df.iloc[idx, property_df.columns.get_loc('region__c')] = rg_cnt
-        rg_cnt+=1
+#     if pt_value!=-1:
+#         row['property_type_1']=pt_value
+#         property_df.iloc[idx, property_df.columns.get_loc('property_type_1')] = pt_value
+#     else:
+#         row['property_type_1']=pt_cnt
+#         property_df.iloc[idx, property_df.columns.get_loc('property_type_1')] = pt_cnt
+#         pt_cnt+=1
+#     if rg_value!=-1:
+#         row['region__c']=rg_value
+#         property_df.iloc[idx, property_df.columns.get_loc('region__c')] = rg_value
+#     else:
+#         row['region__c']=rg_cnt
+#         property_df.iloc[idx, property_df.columns.get_loc('region__c')] = rg_cnt
+#         rg_cnt+=1
         
 
 property_new_df = property_df.apply(pd.to_numeric, errors='coerce')
