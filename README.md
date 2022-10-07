@@ -24,7 +24,6 @@
 * Dexter
 * The Purge
 * Seinfeld
-* Carnival Row
 * Our Planet
 * The Family Man
 * The Family Man
